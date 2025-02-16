@@ -85,7 +85,20 @@ Follow the prompts to create an admin user.
    
 Access the application at http://127.0.0.1:8000/.
 
+## Usage
+- Register/Login using credentials or Google OAuth.
 
+- Upload and manage music tracks.
+
+- Create playlists and stream music.
+
+## Troubleshooting
+If you encounter errors:
+- Ensure your virtual environment is activated.
+
+- Check for missing dependencies: pip install -r requirements.txt
+
+- Verify .env configuration and credentials.
 
 
 
