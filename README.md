@@ -86,8 +86,9 @@ Follow the prompts to create an admin user.
 
 8. Run the Development Server
    ``` bash
-python manage.py runserver
+   python manage.py runserver
    ```
+   
 Access the application at http://127.0.0.1:8000/.
 
 
