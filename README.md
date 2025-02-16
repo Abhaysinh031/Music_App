@@ -36,52 +36,46 @@ Ensure you have the following installed:
 
 1. Clone the Repository
    ``` bash
-git clone https://github.com/Abhaysinh031/Music_App.git
-cd Music_App
-
+   git clone https://github.com/Abhaysinh031/Music_App.git
+   cd Music_App
    ```
 
 2. Create a Virtual Environment
-``` bash
-python -m venv venv
-```
+   ``` bash
+   python -m venv venv
+   ```
 
 3. Activate the Virtual Environment
 - Windows:
-``` bash
-venv\Scripts\activate
-```
+   ``` bash
+   venv\Scripts\activate
+   ```
 
 - Mac/Linux:
   ``` bash
-source venv/bin/activate
+   source venv/bin/activate
   ```
 4. Install Dependencies
-
-``` bash
-pip install -r requirements.txt
-```
+   ``` bash
+   pip install -r requirements.txt
+   ```
 
 5.Set Up Environment Variables
-
 Create a .env file in the project root and add:
-```bash
-
-GOOGLE_CLIENT_ID=your_google_client_id
-GOOGLE_CLIENT_SECRET=your_google_client_secret
-
-```
+   ```bash
+   GOOGLE_CLIENT_ID=your_google_client_id
+   GOOGLE_CLIENT_SECRET=your_google_client_secret
+   ```
 
 6. Apply Migrations
    ``` bash
-
-python manage.py migrate
+   python manage.py migrate
    ```
 
 7. Create a Superuser
-``` bash
-python manage.py createsuperuser
-```
+   ``` bash
+   python manage.py createsuperuser
+   ```
 Follow the prompts to create an admin user.
 
 8. Run the Development Server
